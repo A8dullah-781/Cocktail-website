@@ -5,6 +5,7 @@ import LocomotiveScroll from 'locomotive-scroll';
 
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
+import Cocktails from './components/Cocktails';
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -26,7 +27,7 @@ const App = () => {
     <main className="main" data-scroll-container>
       <Navbar />
       <Hero />
-      <div className="h-[100vh] bg-black"></div>
+      <Cocktails/>
     </main>
   );
 };
