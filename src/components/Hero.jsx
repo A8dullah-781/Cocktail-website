@@ -48,7 +48,7 @@ const Hero = () => {
             .to('.left-leaf', {y:-200}, 0)
 
 	const startValue = isMobile ? "top 50%" : "center 60%";
-    const endValue = isMobile ? "165% top" : "bottom top";
+    const endValue = isMobile ? "163% top" : "bottom top";
     // mobile py orrr lmba leke jany ky lieeee 200% ko orr bhrhaa dein gy
     
 
